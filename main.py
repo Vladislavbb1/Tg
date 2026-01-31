@@ -10,6 +10,7 @@ from aiogram.client.session.aiohttp import AiohttpSession
 
 async def main():
     config: Config = load_config()
+    session = AiohttpSession(proxy="http://proxy.server:3128")
 
     bot = Bot(token=config.tg_bot.token)
     dp = Dispatcher()
