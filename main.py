@@ -5,6 +5,7 @@ from config_data.config import Config, load_config
 from handlers import handlers
 from database.database import create_database
 
+from aiogram.client.session.aiohttp import AiohttpSession
 
 
 async def main():
