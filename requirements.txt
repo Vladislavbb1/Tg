@@ -5,6 +5,9 @@ aiohttp==3.13.3
 aiosignal==1.4.0
 annotated-types==0.7.0
 attrs==25.4.0
+python-telegram-bot==20.7
+aiohttp-socks
+python-dotenv
 certifi==2026.1.4
 colorama==0.4.6
 defusedxml==0.7.1
@@ -33,4 +36,5 @@ typing-inspection==0.4.2
 typing_extensions==4.15.0
 wrapt==2.0.1
 yarl==1.22.0
+
 
