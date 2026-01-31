@@ -12,7 +12,7 @@ async def main():
     config: Config = load_config()
     session = AiohttpSession(proxy="http://proxy.server:3128")
 
-    bot = Bot(token=config.tg_bot.token,session=session)
+    bot = Bot(token=config.tg_bot.token)
     dp = Dispatcher()
 
     dp.include_router(handlers.router)
